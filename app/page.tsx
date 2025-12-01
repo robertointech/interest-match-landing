@@ -209,7 +209,7 @@ export default function Home() {
 
             <div className="text-center">
               <div className="w-16 h-16 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
-              <h3 className="font-bold mb-2 text-gray-800 text-lg">Conversa y Conócense</h3>
+              <h3 className="font-bold mb-2 text-gray-800 text-lg">Conversa y Conózcanse</h3>
               <p className="text-gray-600">Chatea de forma segura y queden para tomar un café.</p>
             </div>
           </div>
