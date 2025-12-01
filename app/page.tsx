@@ -54,7 +54,7 @@ export default function Home() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="https://videos.pexels.com/video-files/3209211/3209211-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4290209/4290209-uhd_2560_1440_25fps.mp4" type="video/mp4" />
         </video>
         
         {/* Overlay */}
