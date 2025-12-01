@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Heart, CheckCircle, Shield, Church, Star, Play } from 'lucide-react'
+import { Heart, CheckCircle, Shield, Church, Star } from 'lucide-react'
 import { addToWaitlist } from '@/lib/supabase'
 
 export default function Home() {
@@ -53,6 +53,7 @@ export default function Home() {
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
+          poster="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1920&h=1080&fit=crop"
         >
           <source src="https://videos.pexels.com/video-files/3327617/3327617-hd_1920_1080_24fps.mp4" type="video/mp4" />
         </video>
@@ -184,7 +185,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Cómo Funciona */}
+      {/* Cómo Funciona - 3 PASOS */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-sky-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -193,7 +194,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 bg-sky-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
               <h3 className="font-bold mb-2 text-gray-800 text-lg">Crea tu Perfil</h3>
@@ -207,15 +208,9 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-sky-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
-              <h3 className="font-bold mb-2 text-gray-800 text-lg">Conversa</h3>
-              <p className="text-gray-600">Chatea de forma segura y conoce mejor a esa persona especial.</p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
-              <h3 className="font-bold mb-2 text-gray-800 text-lg">Conócense</h3>
-              <p className="text-gray-600">Queden para tomar un café y conocerse en persona.</p>
+              <div className="w-16 h-16 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
+              <h3 className="font-bold mb-2 text-gray-800 text-lg">Conversa y Conócense</h3>
+              <p className="text-gray-600">Chatea de forma segura y queden para tomar un café.</p>
             </div>
           </div>
         </div>
